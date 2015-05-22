@@ -61,3 +61,8 @@ $RECYCLE.BIN/
 # Sublime Text files
 *.sublime-project
 *.sublime-workspace
+
+# .Net files
+*.suo
+embed/ClientDotNet/ClientDotNet/obj/
+embed/ClientDotNet/ClientDotNet/bin/
