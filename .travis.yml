@@ -1,1 +1,9 @@
 language: rust
+
+env:
+  matrix:
+    - PROJECT=adder
+
+script:
+  - cd $PROJECT
+  - cargo test
