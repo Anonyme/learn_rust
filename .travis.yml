@@ -3,6 +3,7 @@ language: rust
 env:
   matrix:
     - PROJECT=adder
+    - PROJECT=fizz_buzz
 
 script:
   - cd $PROJECT
